@@ -1,5 +1,15 @@
 {
   "resources": [
+    {"id":{"name":"TX_VillageGround","path":"sprites/TX_VillageGround/TX_VillageGround.yy",},"order":0,},
+    {"id":{"name":"spr_block1","path":"sprites/spr_block1/spr_block1.yy",},"order":0,},
+    {"id":{"name":"TX_VillageGroundSet","path":"tilesets/TX_VillageGroundSet/TX_VillageGroundSet.yy",},"order":0,},
+    {"id":{"name":"spr_background3","path":"sprites/spr_background3/spr_background3.yy",},"order":2,},
+    {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},"order":0,},
+    {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},"order":1,},
+    {"id":{"name":"TX_VillagePropsSet","path":"tilesets/TX_VillagePropsSet/TX_VillagePropsSet.yy",},"order":1,},
+    {"id":{"name":"TX_VillageProps","path":"sprites/TX_VillageProps/TX_VillageProps.yy",},"order":1,},
+    {"id":{"name":"spr_background4","path":"sprites/spr_background4/spr_background4.yy",},"order":3,},
+    {"id":{"name":"obj_block1","path":"objects/obj_block1/obj_block1.yy",},"order":0,},
     {"id":{"name":"FirstRoom","path":"rooms/FirstRoom/FirstRoom.yy",},"order":0,},
   ],
   "Options": [
@@ -32,6 +42,10 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Tiles.yy","order":1,"resourceVersion":"1.0","name":"Tiles","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Background.yy","order":2,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Blocks.yy","order":3,"resourceVersion":"1.0","name":"Blocks","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Blocks.yy","order":1,"resourceVersion":"1.0","name":"Blocks","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
