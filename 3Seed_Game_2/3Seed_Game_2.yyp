@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"TX_VillageGround","path":"sprites/TX_VillageGround/TX_VillageGround.yy",},"order":0,},
+    {"id":{"name":"Menu","path":"fonts/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"spr_block1","path":"sprites/spr_block1/spr_block1.yy",},"order":0,},
     {"id":{"name":"TX_VillageGroundSet","path":"tilesets/TX_VillageGroundSet/TX_VillageGroundSet.yy",},"order":0,},
     {"id":{"name":"spr_background3","path":"sprites/spr_background3/spr_background3.yy",},"order":2,},
