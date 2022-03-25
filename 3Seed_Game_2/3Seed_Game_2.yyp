@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"tile_furniture","path":"tilesets/tile_furniture/tile_furniture.yy",},"order":8,},
     {"id":{"name":"tile_house","path":"tilesets/tile_house/tile_house.yy",},"order":3,},
+    {"id":{"name":"tile_plants","path":"tilesets/tile_plants/tile_plants.yy",},"order":7,},
     {"id":{"name":"TX_VillageGround","path":"sprites/TX_VillageGround/TX_VillageGround.yy",},"order":0,},
     {"id":{"name":"Menu","path":"fonts/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"spr_block1","path":"sprites/spr_block1/spr_block1.yy",},"order":0,},
@@ -10,6 +12,7 @@
     {"id":{"name":"spr_grass","path":"sprites/spr_grass/spr_grass.yy",},"order":1,},
     {"id":{"name":"tile_grass","path":"tilesets/tile_grass/tile_grass.yy",},"order":1,},
     {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},"order":0,},
+    {"id":{"name":"tile_chests","path":"tilesets/tile_chests/tile_chests.yy",},"order":9,},
     {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},"order":1,},
     {"id":{"name":"TX_VillagePropsSet","path":"tilesets/TX_VillagePropsSet/TX_VillagePropsSet.yy",},"order":1,},
     {"id":{"name":"TX_VillageProps","path":"sprites/TX_VillageProps/TX_VillageProps.yy",},"order":1,},
@@ -22,7 +25,10 @@
     {"id":{"name":"tile_fences","path":"tilesets/tile_fences/tile_fences.yy",},"order":0,},
     {"id":{"name":"spr_tilleddirt","path":"sprites/spr_tilleddirt/spr_tilleddirt.yy",},"order":3,},
     {"id":{"name":"spr_background4","path":"sprites/spr_background4/spr_background4.yy",},"order":3,},
+    {"id":{"name":"spr_basicplants","path":"sprites/spr_basicplants/spr_basicplants.yy",},"order":7,},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":6,},
+    {"id":{"name":"spr_chests","path":"sprites/spr_chests/spr_chests.yy",},"order":9,},
+    {"id":{"name":"spr_furniture","path":"sprites/spr_furniture/spr_furniture.yy",},"order":8,},
     {"id":{"name":"TitleFont","path":"fonts/TitleFont/TitleFont.yy",},"order":0,},
     {"id":{"name":"tile_tilldirt","path":"tilesets/tile_tilldirt/tile_tilldirt.yy",},"order":4,},
     {"id":{"name":"spr_player01_down","path":"sprites/spr_player01_down/spr_player01_down.yy",},"order":0,},
