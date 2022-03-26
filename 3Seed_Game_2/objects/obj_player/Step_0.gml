@@ -5,6 +5,8 @@ key_right = keyboard_check(vk_right)
 key_left = keyboard_check(vk_left)
 key_up = keyboard_check(vk_up)
 key_down = keyboard_check(vk_down)
+key_space = keyboard_check(vk_space)
+key_atk = keyboard_check(ord("E"))
 
 xspd = (key_right - key_left) * move_speed;
 yspd = (key_down - key_up) * move_speed;
