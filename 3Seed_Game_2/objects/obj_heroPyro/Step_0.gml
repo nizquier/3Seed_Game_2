@@ -11,24 +11,6 @@ key_atk = keyboard_check(ord("E"))
 xspd = (key_right - key_left) * move_speed;
 yspd = (key_down - key_up) * move_speed;
 
-if(key_right && !key_left){
-	if(key_atk) sprite_index = spr_heroPyroAtk_right
-	else if(key_space) sprite_index = spr_heroPyroGrd_right
-	else sprite_index = spr_heroPyro_right
-}else if(key_left && !key_right){
-	if(key_atk) sprite_index = spr_heroPyroAtk_left
-	else if(key_space) sprite_index = spr_heroPyroGrd_left
-	else sprite_index = spr_heroPyro_left
-}else if(key_up && !key_down){
-	if(key_atk) sprite_index = spr_heroPyroAtk_up
-	else if(key_space) sprite_index = spr_heroPyroGrd_up
-	else sprite_index = spr_heroPyro_up
-}else if(key_down && !key_up){
-	if(key_atk) sprite_index = spr_heroPyroAtk_down
-	else if(key_space) sprite_index = spr_heroPyroGrd_down
-	else sprite_index = spr_heroPyro_down
-}
-
 //animate player
 if(xspd == 0 and yspd == 0) {
 	image_index = 0;
@@ -36,3 +18,22 @@ if(xspd == 0 and yspd == 0) {
 
 x += xspd;
 y +=yspd;
+
+//set sprite
+mask_index = sprite[DOWN]
+if yspd == 0 {
+	if xspd > 0 face = RIGHT;
+	if xspd < 0 face = LEFT;
+}
+if xspd > 0 && face == LEFT face = RIGHT;
+if xspd < 0 && face == RIGHT face = LEFT;
+if xspd == 0 {
+	if yspd > 0 face = DOWN;
+	if yspd < 0 face = UP;
+}
+if yspd > 0 && face == UP face = DOWN;
+if yspd < 0 && face == DOWN face = UP;
+//sprite_index = sprite[face];
+if(key_atk) sprite_index = atkSprite[face]
+else if(key_space) sprite_index = defSprite[face]
+else sprite_index = sprite[face]

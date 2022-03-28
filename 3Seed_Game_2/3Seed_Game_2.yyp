@@ -39,6 +39,7 @@
     {"id":{"name":"spr_tilleddirt","path":"sprites/spr_tilleddirt/spr_tilleddirt.yy",},"order":3,},
     {"id":{"name":"spr_background4","path":"sprites/spr_background4/spr_background4.yy",},"order":3,},
     {"id":{"name":"spr_basicplants","path":"sprites/spr_basicplants/spr_basicplants.yy",},"order":7,},
+    {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},"order":0,},
     {"id":{"name":"obj_heroPyro","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"order":1,},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":6,},
     {"id":{"name":"spr_chests","path":"sprites/spr_chests/spr_chests.yy",},"order":9,},
