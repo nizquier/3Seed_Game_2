@@ -10,4 +10,4 @@ randomize()
 
 choosenHero = irandom(3);
 
-instance_create_layer(x, y, "Instances", hero[choosenHero]);
+instance_create_layer(x, y+28, "Instances", hero[choosenHero]);
