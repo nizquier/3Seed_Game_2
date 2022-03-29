@@ -53,6 +53,7 @@
     {"id":{"name":"spr_fences","path":"sprites/spr_fences/spr_fences.yy",},"order":0,},
     {"id":{"name":"spr_woodbridge","path":"sprites/spr_woodbridge/spr_woodbridge.yy",},"order":6,},
     {"id":{"name":"spr_heroDendro_left","path":"sprites/spr_heroDendro_left/spr_heroDendro_left.yy",},"order":1,},
+    {"id":{"name":"spr_fireAtk","path":"sprites/spr_fireAtk/spr_fireAtk.yy",},"order":5,},
     {"id":{"name":"spr_heroPyroGrd_down","path":"sprites/spr_heroPyroGrd_down/spr_heroPyroGrd_down.yy",},"order":0,},
     {"id":{"name":"spr_heroDendroGrd_down","path":"sprites/spr_heroDendroGrd_down/spr_heroDendroGrd_down.yy",},"order":0,},
     {"id":{"name":"spr_title2","path":"sprites/spr_title2/spr_title2.yy",},"order":5,},
@@ -95,6 +96,7 @@
     {"id":{"name":"spr_paths","path":"sprites/spr_paths/spr_paths.yy",},"order":10,},
     {"id":{"name":"spr_heroPyro_down","path":"sprites/spr_heroPyro_down/spr_heroPyro_down.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_fireAttack","path":"objects/obj_fireAttack/obj_fireAttack.yy",},"order":0,},
     {"id":{"name":"obj_block1","path":"objects/obj_block1/obj_block1.yy",},"order":0,},
     {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},"order":4,},
     {"id":{"name":"spr_hills","path":"sprites/spr_hills/spr_hills.yy",},"order":2,},
@@ -160,6 +162,7 @@
     {"folderPath":"folders/Sprites/Players/DendroHero/Guard and Attack.yy","order":2,"resourceVersion":"1.0","name":"Guard and Attack","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Players/DendroHero/Walk.yy","order":3,"resourceVersion":"1.0","name":"Walk","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Icons.yy","order":5,"resourceVersion":"1.0","name":"Icons","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Attacks.yy","order":7,"resourceVersion":"1.0","name":"Attacks","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

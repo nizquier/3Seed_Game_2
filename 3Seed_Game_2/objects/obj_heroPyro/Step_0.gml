@@ -36,5 +36,14 @@ if yspd < 0 && face == DOWN {face = UP};
 if(key_atk) sprite_index = atkSprite[face]
 else if(key_space) sprite_index = defSprite[face]
 else sprite_index = sprite[face]
+global.playerFace = face;
+
+if canEAttack {
+	if keyboard_check(ord("E")) {
+		canEAttack = false;
+		alarm[0] = 30;
+		instance_create_layer(x, y, "Instances", objEATTACK);
+	}
+}
 
 //collisions

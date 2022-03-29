@@ -3,6 +3,8 @@ yspd = 0
 
 move_speed = 1
 
+global.currHero = thisHero
+
 sprite[RIGHT] = sprRIGHT
 sprite[UP] = sprUP
 sprite[LEFT] = sprLEFT
@@ -19,3 +21,5 @@ defSprite[LEFT] = sprDefLEFT
 defSprite[DOWN] = sprDefDOWN
 
 face = DOWN;
+
+canEAttack = true;
