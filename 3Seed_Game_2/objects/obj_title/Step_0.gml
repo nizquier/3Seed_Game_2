@@ -29,11 +29,14 @@ if enter {
 		case 0:
 			//Start
 			room_goto(MHS)
+			audio_stop_sound(snd_mainMenu)
 		break;
 		
 		case 1:
 			//Instructions
 			room_goto(Nick)
+			audio_stop_sound(snd_mainMenu)
+			audio_play_sound(snd_forest, 10, true)
 		break;
 		
 		case 2:

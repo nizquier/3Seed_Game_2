@@ -8,3 +8,4 @@ enum CurrentHero {
 	Dendro
 }
 
+audio_play_sound(snd_mainMenu, 10, true)
