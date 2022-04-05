@@ -39,6 +39,7 @@
     {"propertyId":{"name":"sprDefLEFT","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"objectId":{"name":"obj_heroPyro","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"value":"spr_heroCryoGrd_left","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"sprDefDOWN","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"objectId":{"name":"obj_heroPyro","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"value":"spr_heroCryoGrd_down","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"thisHero","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"objectId":{"name":"obj_heroPyro","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"value":"CurrentHero.Cryo","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"objEATTACK","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"objectId":{"name":"obj_heroPyro","path":"objects/obj_heroPyro/obj_heroPyro.yy",},"value":"obj_iceAttack","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Heroes",

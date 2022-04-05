@@ -16,8 +16,8 @@ if(xspd == 0 and yspd == 0) {
 	image_index = 0;
 }
 
-x += xspd;
-y +=yspd;
+x += xspd * charSPD;
+y +=yspd * charSPD;
 
 //set sprite
 mask_index = sprite[DOWN]
@@ -37,12 +37,31 @@ if(key_atk) sprite_index = atkSprite[face]
 else if(key_space) sprite_index = defSprite[face]
 else sprite_index = sprite[face]
 global.playerFace = face;
+frameSPD = game_get_speed(gamespeed_fps)
 
 if canEAttack {
 	if keyboard_check(ord("E")) {
 		canEAttack = false;
 		alarm[0] = 30;
-		instance_create_layer(x, y, "Instances", objEATTACK);
+		if(objEATTACK == obj_waterAttack){
+			for(i = 0; i <= 4; i++) {
+				switch(frameSPD * i) {
+				case 60:
+					global.bubbleFace = RIGHT
+					break;
+				case 120:
+					global.bubbleFace = UP
+					break;
+				case 180:
+					global.bubbleFace = LEFT
+					break;
+				default:
+					global.bubbleFace = DOWN
+					break;
+				}
+				instance_create_layer(x, y, "Instances", objEATTACK);
+			}
+		}else instance_create_layer(x, y, "Instances", objEATTACK);
 	}
 }
 
