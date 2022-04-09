@@ -27,21 +27,20 @@ if enter {
 	//audio_play_sound(snd_menuSelect, 10, false)
 	switch(index){
 		case 0:
-			//Start
 			room_goto(MHS)
 			audio_stop_sound(snd_mainMenu)
 		break;
 		
 		case 1:
-			//Instructions
 			room_goto(Nick)
 			audio_stop_sound(snd_mainMenu)
 			audio_play_sound(snd_forest, 10, true)
 		break;
 		
 		case 2:
-			//Credits
-			//room_goto(RoomCredits)
+			room_goto(Atlantis)
+			audio_stop_sound(snd_mainMenu)
+			audio_play_sound(snd_forest, 10, true)
 		break;
 		
 		case 3:

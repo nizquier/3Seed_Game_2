@@ -2,6 +2,7 @@
 // You can write your code in this editor
 menu[0] = "Start Game (MHS)";
 menu[1] = "Start Game (Nick)";
+menu[2] = "Start Game (Atlantis)";
 
 audio_play_sound(snd_mainMenu, 10, true)
 
