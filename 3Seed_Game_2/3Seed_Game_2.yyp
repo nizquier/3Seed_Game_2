@@ -91,6 +91,7 @@
     {"id":{"name":"spr_heroDendro_right","path":"sprites/spr_heroDendro_right/spr_heroDendro_right.yy",},"order":2,},
     {"id":{"name":"spr_heroCryoAtk_left","path":"sprites/spr_heroCryoAtk_left/spr_heroCryoAtk_left.yy",},"order":1,},
     {"id":{"name":"spr_heroCryoAtk_up","path":"sprites/spr_heroCryoAtk_up/spr_heroCryoAtk_up.yy",},"order":3,},
+    {"id":{"name":"obj_speed","path":"objects/obj_speed/obj_speed.yy",},"order":8,},
     {"id":{"name":"spr_tilleddirt","path":"sprites/spr_tilleddirt/spr_tilleddirt.yy",},"order":3,},
     {"id":{"name":"spr_background4","path":"sprites/spr_background4/spr_background4.yy",},"order":3,},
     {"id":{"name":"spr_heroCryoGrd_right","path":"sprites/spr_heroCryoGrd_right/spr_heroCryoGrd_right.yy",},"order":2,},
@@ -136,6 +137,7 @@
     {"id":{"name":"spr_heroPyro_down","path":"sprites/spr_heroPyro_down/spr_heroPyro_down.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_lavaRock","path":"objects/obj_lavaRock/obj_lavaRock.yy",},"order":7,},
+    {"id":{"name":"spr_speed","path":"sprites/spr_speed/spr_speed.yy",},"order":8,},
     {"id":{"name":"obj_fireAttack","path":"objects/obj_fireAttack/obj_fireAttack.yy",},"order":0,},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":0,},
     {"id":{"name":"obj_bridgeEdgeBlock","path":"objects/obj_bridgeEdgeBlock/obj_bridgeEdgeBlock.yy",},"order":2,},
@@ -154,7 +156,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 1,
+  "isDnDProject": false,
   "isEcma": false,
   "configs": {
     "name": "Default",
@@ -216,11 +218,11 @@
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"compressFormat":"bz2","autocrop":false,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":false,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.2.1.618",
   },
   "resourceVersion": "1.5",
   "name": "3Seed_Game_2",
