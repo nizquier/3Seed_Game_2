@@ -2,17 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function GolemAttack() 
 {
-	//How fast to move
 	var spd = enemySpeed;
-	
-	//Freeze animation while in mid-air, and also after landing finishes
-	if (floor(image_index) == 3) || (floor(image_index) == 5) image_speed = 0;
 
-	//How far we have to jump
 	var distanceToGo = point_distance(x,y,xTo,yTo);
 
-	//Begin landing end of the animation once we're nearly done
-	if (distanceToGo < 4) && (image_index < 5) image_speed = 1;
+	image_speed = 1.5
 
 	//Move
 	if (distanceToGo > spd)
@@ -44,6 +38,22 @@ function GolemAttack()
 
 }
 
+function GolemRangeAttack()
+{
+	var spd = enemySpeed;
+	instance_create_layer(x, y-2, "Instances", obj_GolemRange);
+	dir = point_direction(x,y,xTo,yTo);
+	hsp = lengthdir_x(spd,dir);
+	vsp = lengthdir_y(spd,dir);
+	if (hsp != 0) image_xscale = sign(hsp);	
+	if (floor(image_index) == 5)
+	{
+		stateTarget = ENEMYSTATE.CHASE;
+		stateWaitDuration = 15;
+		state = ENEMYSTATE.WAIT;
+	}
+}
+
 function GolemChase() 
 {
 	sprite_index = sprMove;
@@ -73,7 +83,8 @@ function GolemChase()
 	}
 
 	//Check if close enough to launch an attack
-	if (instance_exists(target)) && (point_distance(x,y,target.x,target.y) <= enemyAtkDistance)
+	var pntDist = point_distance(x,y,target.x,target.y)
+	if (instance_exists(target)) && (pntDist <= enemyAtkDistance)
 	{
 		state = ENEMYSTATE.ATTACK;
 		sprite_index = sprMAttack;
@@ -82,9 +93,15 @@ function GolemChase()
 		xTo += lengthdir_x(8,dir);
 		yTo += lengthdir_y(8,dir);
 	}
-
-
-
+	else if(instance_exists(target)) && (pntDist > enemyAtkDistance) && (pntDist <= enemyRangeDistance)
+	{
+		state = ENEMYSTATE.RANGE;
+		sprite_index = sprRAttack;
+		image_index = 0;
+		image_speed = 1.0;
+		xTo += lengthdir_x(8,dir);
+		yTo += lengthdir_y(8,dir);
+	}
 }
 
 function GolemWander() 

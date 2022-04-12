@@ -39,6 +39,7 @@ enemyScript[ENEMYSTATE.IDLE] = -1;
 enemyScript[ENEMYSTATE.WANDER] = GolemWander;
 enemyScript[ENEMYSTATE.CHASE] = GolemChase;
 enemyScript[ENEMYSTATE.ATTACK] = GolemAttack;
+enemyScript[ENEMYSTATE.RANGE] = GolemRangeAttack;
 enemyScript[ENEMYSTATE.HURT] = GolemHurt;
 enemyScript[ENEMYSTATE.DIE] = GolemDie;
 enemyScript[ENEMYSTATE.WAIT] = EnemyWait;
