@@ -68,4 +68,10 @@ if canEAttack {
 	}
 }
 
+if (!global.pause) 
+{
+	invulnerable = max(invulnerable-1,0);
+	flash = max(flash-0.05,0);
+}
+
 //collisions

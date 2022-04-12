@@ -23,3 +23,7 @@ defSprite[DOWN] = sprDefDOWN
 face = DOWN;
 
 canEAttack = true;
+z = 0;
+invulnerable = 0;
+flash = 0;
+flashShader = shd_WhiteFlash;
