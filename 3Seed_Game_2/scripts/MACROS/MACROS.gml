@@ -9,3 +9,17 @@
 #macro CRYO 1
 #macro HYDRO 2
 #macro DENDRO 3
+
+#macro TILE_SIZE 32
+
+//For Enemies
+enum ENEMYSTATE
+{
+	IDLE,
+	WANDER,
+	CHASE,
+	ATTACK,
+	HURT,
+	DIE,
+	WAIT
+}
