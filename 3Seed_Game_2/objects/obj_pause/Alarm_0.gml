@@ -5,4 +5,4 @@ audio_resume_all();
 screen_alpha_set	= 0;
 b					= 0; //reset button starting pos
 
-global.pause = false;
+pause = false;

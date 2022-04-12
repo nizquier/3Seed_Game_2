@@ -9,7 +9,7 @@ gpu_set_tex_filter( false );
 font	= font_add_sprite(TitleFont, ord(" "), 1, 2);
 draw_set_font( font );
 
-global.pause		= false;
+pause		= false;
 gwidth		= display_get_gui_width();
 gheight		= display_get_gui_height();
 cx			= gwidth/3;
