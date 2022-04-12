@@ -11,7 +11,7 @@ enum EnemyDirection{
 	Right
 }
 
-hspeed = hsp
+hsp = hspeed
 state = States.Regular
 EDir = EnemyDirection.Left
 
