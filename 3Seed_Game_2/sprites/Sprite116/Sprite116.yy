@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 16,
-  "bbox_right": 79,
-  "bbox_top": 16,
-  "bbox_bottom": 93,
+  "bbox_left": 0,
+  "bbox_right": 0,
+  "bbox_top": 0,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 96,
-  "height": 112,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f5221f7e-3104-47be-8781-242e96896a66","path":"sprites/spr_mw_decor16/spr_mw_decor16.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f5221f7e-3104-47be-8781-242e96896a66","path":"sprites/spr_mw_decor16/spr_mw_decor16.yy",},"LayerId":{"name":"7422343e-d507-4447-bd45-abedd577c8ad","path":"sprites/spr_mw_decor16/spr_mw_decor16.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mw_decor16","path":"sprites/spr_mw_decor16/spr_mw_decor16.yy",},"resourceVersion":"1.0","name":"f5221f7e-3104-47be-8781-242e96896a66","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"279b99a3-9694-499d-bdd5-894feeda09a5","path":"sprites/Sprite116/Sprite116.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"279b99a3-9694-499d-bdd5-894feeda09a5","path":"sprites/Sprite116/Sprite116.yy",},"LayerId":{"name":"27dd4a41-a44b-4153-b5de-e0c50211097d","path":"sprites/Sprite116/Sprite116.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite116","path":"sprites/Sprite116/Sprite116.yy",},"resourceVersion":"1.0","name":"279b99a3-9694-499d-bdd5-894feeda09a5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mw_decor16","path":"sprites/spr_mw_decor16/spr_mw_decor16.yy",},
+    "spriteId": {"name":"Sprite116","path":"sprites/Sprite116/Sprite116.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d71580f0-a05a-4e38-8ab5-73cba2b5f5eb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f5221f7e-3104-47be-8781-242e96896a66","path":"sprites/spr_mw_decor16/spr_mw_decor16.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6ea3b7e9-f19c-49ea-99b8-96c16ef02a0c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"279b99a3-9694-499d-bdd5-894feeda09a5","path":"sprites/Sprite116/Sprite116.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mw_decor16","path":"sprites/spr_mw_decor16/spr_mw_decor16.yy",},
+    "parent": {"name":"Sprite116","path":"sprites/Sprite116/Sprite116.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_mw_decor16",
+    "name": "Sprite116",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7422343e-d507-4447-bd45-abedd577c8ad","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"27dd4a41-a44b-4153-b5de-e0c50211097d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Tiles/MysticWoods.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_mw_decor16",
+  "name": "Sprite116",
   "tags": [],
   "resourceType": "GMSprite",
 }
