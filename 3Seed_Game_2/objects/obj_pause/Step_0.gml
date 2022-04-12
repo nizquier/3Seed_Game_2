@@ -38,12 +38,12 @@ if(room = FirstRoom){}
 else{
 ///		Trigger PauseMenu	///
 if ( kPause ){
-	if ( pause ){
+	if ( global.pause ){
 		alarm[0]	= 2; //Resume
 	} else {
 		alarm[1]	= 2; //Pause
 	}
-	pause = !pause
+	global.pause = !global.pause
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -52,7 +52,7 @@ if ( kPause ){
 #region		Buttons		
 ////////////////////////////////////////////////////////////////////////////
 
-if ( pause ){
+if ( global.pause ){
 	///		Button Pos		///
 	for( var i = 0; i< bc; i++; ){
 		var x_set		= cx;
@@ -106,22 +106,22 @@ if ( pause ){
 	
 	///		Select Button	///
 	if ( kConfirm ){
-		if ( pause ){
+		if ( global.pause ){
 			// audio_play_sound( sound[1], 0, 0 );
 		switch( b ){
 			case 0: // Resume
-				alarm[0]	= room_speed* 0.1; //resume timer 
+				alarm[0]	= room_speed * 0.1; //resume timer 
 				screen_alpha_set	= 0; 
 			break;
 			case 1: // Restart
 				room_restart();
-
+				alarm[0]	= room_speed * 0.1;
 			break;
 			case 2: // MainMenus
 				instance_activate_all();
 				screen_alpha_set = 0;
 				room_goto(FirstRoom)
-				pause = false;
+				global.pause = false;
 			break;
 			case 3: // Exit
 				game_end();

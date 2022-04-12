@@ -92,6 +92,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_icewall","path":"objects/obj_icewall/obj_icewall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":2.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":365.0,"y":740.0,"resourceVersion":"1.0","name":"inst_246B8771","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_icewall","path":"objects/obj_icewall/obj_icewall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.5,"scaleY":2.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":396.0,"y":754.0,"resourceVersion":"1.0","name":"inst_7F23B743","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_speed","path":"objects/obj_speed/obj_speed.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":928.0,"resourceVersion":"1.0","name":"inst_44C76CAF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Golem","path":"objects/obj_Golem/obj_Golem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":832.0,"resourceVersion":"1.0","name":"inst_11EA1857","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_coldWaterBlock","path":"objects/obj_coldWaterBlock/obj_coldWaterBlock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1584.0,"y":400.0,"resourceVersion":"1.0","name":"inst_5792B1CA","tags":[],"resourceType":"GMRInstance",},
@@ -607,6 +608,7 @@
     {"name":"inst_2DE04731","path":"rooms/Atlantis/Atlantis.yy",},
     {"name":"inst_445C8C4A","path":"rooms/Atlantis/Atlantis.yy",},
     {"name":"inst_44C76CAF","path":"rooms/Atlantis/Atlantis.yy",},
+    {"name":"inst_11EA1857","path":"rooms/Atlantis/Atlantis.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
