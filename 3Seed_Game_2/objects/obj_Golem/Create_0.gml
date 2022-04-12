@@ -4,7 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-state = ENEMYSTATE.WANDER
+image_speed = 0;
+state = ENEMYSTATE.IDLE
 xTo = xstart;
 yTo = ystart;
 dir = 0;
