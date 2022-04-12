@@ -5,3 +5,5 @@ if(instance_exists(obj_player)) {
 	if(CurrentHero.Cryo == global.currHero) instance_deactivate_object(obj_shoreBlock)
 	else instance_activate_object(obj_shoreBlock)
 }
+
+layer_set_visible(layer_get_id("Permanent_BlocksINV"), false)
