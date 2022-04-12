@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-
+/*
 var collision = false;
 if(tilemap_get_at_pixel(collisionMap, x + hsp, y))
 {
@@ -21,3 +21,4 @@ if(tilemap_get_at_pixel(collisionMap,x,y + vsp))
 y += vsp;
 
 return collision
+*/

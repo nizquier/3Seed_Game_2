@@ -20,7 +20,6 @@
     {"id":{"name":"spr_heroPyroAtk_left","path":"sprites/spr_heroPyroAtk_left/spr_heroPyroAtk_left.yy",},"order":2,},
     {"id":{"name":"Menu","path":"fonts/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"spr_golemChase","path":"sprites/spr_golemChase/spr_golemChase.yy",},"order":0,},
-    {"id":{"name":"spr_golemSpawn_1","path":"sprites/spr_golemSpawn_1/spr_golemSpawn_1.yy",},"order":7,},
     {"id":{"name":"tl_atlantisFloor","path":"tilesets/tl_atlantisFloor/tl_atlantisFloor.yy",},"order":5,},
     {"id":{"name":"spr_heroPyroAtk_right","path":"sprites/spr_heroPyroAtk_right/spr_heroPyroAtk_right.yy",},"order":3,},
     {"id":{"name":"spr_AtlantisBackground","path":"sprites/spr_AtlantisBackground/spr_AtlantisBackground.yy",},"order":7,},

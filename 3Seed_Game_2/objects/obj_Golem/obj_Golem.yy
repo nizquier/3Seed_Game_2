@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_golemSpawn_1",
-    "path": "sprites/spr_golemSpawn_1/spr_golemSpawn_1.yy",
+    "name": "spr_golemSpawn",
+    "path": "sprites/spr_golemSpawn/spr_golemSpawn.yy",
   },
   "solid": false,
   "visible": true,
