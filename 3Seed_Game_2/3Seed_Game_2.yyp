@@ -190,15 +190,15 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "isDnDProject": false,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"MHS_NEW","path":"rooms/MHS_NEW/MHS_NEW.yy",},},
     {"roomId":{"name":"FirstRoom","path":"rooms/FirstRoom/FirstRoom.yy",},},
+    {"roomId":{"name":"MHS_NEW","path":"rooms/MHS_NEW/MHS_NEW.yy",},},
     {"roomId":{"name":"MHS","path":"rooms/MHS/MHS.yy",},},
     {"roomId":{"name":"Nick","path":"rooms/Nick/Nick.yy",},},
     {"roomId":{"name":"Atlantis","path":"rooms/Atlantis/Atlantis.yy",},},
@@ -256,11 +256,11 @@
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":false,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"compressFormat":"bz2","autocrop":false,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "3Seed_Game_2",

@@ -32,20 +32,20 @@ if enter {
 		break;
 		
 		case 1:
+			room_goto(MHS_NEW)
+			audio_stop_sound(snd_mainMenu)
+		break;
+		
+		case 2:
 			room_goto(Nick)
 			audio_stop_sound(snd_mainMenu)
 			audio_play_sound(snd_forest, 10, true)
 		break;
 		
-		case 2:
+		case 3:
 			room_goto(Atlantis)
 			audio_stop_sound(snd_mainMenu)
 			audio_play_sound(snd_forest, 10, true)
-		break;
-		
-		case 3:
-			//Exit
-			//game_end()
 		break;
 	}
 }
