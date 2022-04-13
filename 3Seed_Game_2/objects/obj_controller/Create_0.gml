@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 randomize();
-canSwitch = true;
 global.playerHPMax = 10;
 global.playerHP = 10;
 

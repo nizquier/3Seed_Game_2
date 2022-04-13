@@ -27,3 +27,7 @@ z = 0;
 invulnerable = 0;
 flash = 0;
 flashShader = shd_WhiteFlash;
+
+timeline_index = tln_HideSpawn;
+timeline_speed = 1 / room_speed;	
+timeline_running = true;
