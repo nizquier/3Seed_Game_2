@@ -24,4 +24,4 @@ if(CurrentHero.Pyro == global.currHero) {
 frameSPD = game_get_speed(gamespeed_fps)
 alarm[0] = frameSPD * atkDistanceTime;
 
-atkSpeed *= obj_heroPyro.multiplier
+atkSpeed *= obj_heroPyro.atkSpdMultiplier
