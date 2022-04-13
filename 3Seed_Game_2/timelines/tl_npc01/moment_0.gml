@@ -1,0 +1,1 @@
+DialogScript("Hello !!!")

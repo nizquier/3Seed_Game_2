@@ -1,0 +1,1 @@
+DialogScript("Our village was invaded by monsters, Please Help Us ..")
