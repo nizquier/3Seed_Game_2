@@ -6,16 +6,6 @@ event_inherited();
 
 image_speed = 0;
 state = ENEMYSTATE.IDLE
-xTo = xstart;
-yTo = ystart;
-dir = 0;
-timePassed = 0;
-waitDuration = 60;
-wait = 0;
-hsp = hspeed;
-vsp = vspeed;
-aggroCheck = 0;
-aggroCheckDuration = 5;
 
 //enemy sprites
 sprIdle = spr_golemIdle
@@ -24,15 +14,6 @@ sprMAttack = spr_golemMelee
 sprRAttack = spr_golemRange;
 sprHurt = spr_golemHurt;
 sprDeath = spr_golemDeath;
-
-//Enemy Stats
-timePassed = 0
-waitDuration = 60;
-wait = 0;
-stateTarget = state;
-statePrevious = state;
-stateWait = 0;
-stateWaitDuration = 0;
 
 //enemy script
 enemyScript[ENEMYSTATE.IDLE] = -1;
