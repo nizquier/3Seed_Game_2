@@ -5,3 +5,4 @@ if(!hasTimelineStarted){
 	timeline_running = true
 }
 isHeroApproched = true;
+obj_player_controller.objective = "Kill All The Monsters"

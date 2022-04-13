@@ -5,6 +5,7 @@ randomize();
 global.playerHPMax = 10;
 global.playerHP = 10;
 
+
 enum CurrentHero {
 	Pyro,
 	Cryo,
