@@ -15,23 +15,23 @@ if(canControl) {
 	} else {
 		switch(image_angle) {
 		case 0:
-			y += atkSpeed
+			y += atkSpeed 
 			break;
 		case 90:
-			x += atkSpeed
+			x += atkSpeed 
 			break;
 		case 180:
-			y -= atkSpeed
+			y -= atkSpeed 
 			break;
 		case 270:
-			x -= atkSpeed
+			x -= atkSpeed 
 			break;
 		}
 	}
 } else { //Returns the boomerang to the Dendro hero
 	if(instance_exists(obj_heroDendro)){
-		vspeed = atkSpeed * 2;
-		hspeed = atkSpeed * 2;
+		vspeed = atkSpeed * 2 * obj_heroPyro.atkSpdMultiplier;
+		hspeed = atkSpeed * 2 * obj_heroPyro.atkSpdMultiplier;
 		var ex = obj_heroDendro.x
 		var ey = obj_heroDendro.y
 		direction = point_direction(x, y, ex, ey)
