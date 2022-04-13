@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Objects/Blocks.yy",
+    "name": "PowerUps",
+    "path": "folders/Objects/PowerUps.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_speed",

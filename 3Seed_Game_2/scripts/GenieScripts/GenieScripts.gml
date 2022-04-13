@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function GolemAttack() 
+function GenieAttack() 
 {
 	var spd = enemySpeed;
 
@@ -38,23 +38,7 @@ function GolemAttack()
 
 }
 
-function GolemRangeAttack()
-{
-	var spd = enemySpeed;
-	instance_create_layer(x, y-10, "Instances", obj_GolemRange);
-	dir = point_direction(x,y,xTo,yTo);
-	hsp = lengthdir_x(spd,dir);
-	vsp = lengthdir_y(spd,dir);
-	if (hsp != 0) image_xscale = sign(hsp);	
-	if (floor(image_index) == image_number - 1)
-	{
-		stateTarget = ENEMYSTATE.CHASE;
-		stateWaitDuration = 15;
-		state = ENEMYSTATE.WAIT;
-	}
-}
-
-function GolemChase() 
+function GenieChase() 
 {
 	sprite_index = sprMove;
 
@@ -93,18 +77,9 @@ function GolemChase()
 		xTo += lengthdir_x(8,dir);
 		yTo += lengthdir_y(8,dir);
 	}
-	else if(instance_exists(target)) && (pntDist > enemyAtkDistance) && (pntDist <= enemyRangeDistance)
-	{
-		state = ENEMYSTATE.RANGE;
-		sprite_index = sprRAttack;
-		image_index = 0;
-		image_speed = 1.0;
-		xTo += lengthdir_x(8,dir);
-		yTo += lengthdir_y(8,dir);
-	}
 }
 
-function GolemWander() 
+function GenieWander() 
 {
 	sprite_index = sprMove;
 
@@ -160,7 +135,7 @@ function GolemWander()
 
 }
 
-function GolemHurt() 
+function GenieHurt() 
 {
 	sprite_index = sprHurt;
 	var distanceToGo = point_distance(x,y,xTo,yTo);
@@ -188,7 +163,7 @@ function GolemHurt()
 	}
 }
 	
-function GolemDie() 
+function GenieDie() 
 {
 	sprite_index = sprDeath;
 	image_speed = 1.0;

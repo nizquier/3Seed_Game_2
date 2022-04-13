@@ -3,8 +3,8 @@
 
 randomize();
 canSwitch = true;
-global.playerHPMax = 3.0;
-global.playerHP = 3.0;
+global.playerHPMax = 10;
+global.playerHP = 10;
 
 enum CurrentHero {
 	Pyro,

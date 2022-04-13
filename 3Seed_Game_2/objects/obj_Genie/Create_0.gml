@@ -1,22 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-enum States {
-	Chasing,
-	Regular
-}
+// Inherit the parent event
+event_inherited();
 
-enum EnemyDirection{
-	Left,
-	Right
-}
+image_speed = 1;
+state = ENEMYSTATE.WANDER;
 
-hsp = hspeed
-state = States.Regular
-EDir = EnemyDirection.Left
+//enemy sprites
+sprIdle = spr_genieIdle;
+sprMove = spr_genieIdleFollow;
+sprMAttack = spr_genieAttack
+sprHurt = spr_genieHit;
+sprDeath = spr_genieDeath;
 
-sprite_enemy = spr_genieIdle
-sprite_enemy_hit = spr_genieHit
-sprite_enemy_chase = spr_genieIdleFollow
-object_enemy_death = obj_genieDeath
-sprite_enemy_attack = spr_genieAttack
+//enemy script
+enemyScript[ENEMYSTATE.IDLE] = -1;
+enemyScript[ENEMYSTATE.WANDER] = GenieWander;
+enemyScript[ENEMYSTATE.CHASE] = GenieChase;
+enemyScript[ENEMYSTATE.ATTACK] = GenieAttack;
+enemyScript[ENEMYSTATE.HURT] = GenieHurt;
+enemyScript[ENEMYSTATE.DIE] = GenieDie;
+enemyScript[ENEMYSTATE.WAIT] = EnemyWait;
