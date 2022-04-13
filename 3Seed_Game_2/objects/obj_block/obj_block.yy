@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy",
+    "name": "spr_block2",
+    "path": "sprites/spr_block2/spr_block2.yy",
   },
   "solid": true,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
