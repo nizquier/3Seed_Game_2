@@ -41,7 +41,7 @@ function GolemAttack()
 function GolemRangeAttack()
 {
 	var spd = enemySpeed;
-	instance_create_layer(x, y-2, "Instances", obj_GolemRange);
+	instance_create_layer(x, y-10, "Instances", obj_GolemRange);
 	dir = point_direction(x,y,xTo,yTo);
 	hsp = lengthdir_x(spd,dir);
 	vsp = lengthdir_y(spd,dir);

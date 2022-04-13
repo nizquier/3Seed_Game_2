@@ -1,18 +1,17 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-function HurtEnemy(_enemy, _damage, _source, _knockback) 
+function HurtEnemy(enemy, damage, source, knockback)
 {
-
-	with (_enemy)
+	with (enemy)
 	{
 		if (state != ENEMYSTATE.DIE)
 		{
-			enemyHP -= _damage;
+			enemyHP -= damage;	
 			flash = 1;
-	
+			
 			//Hurt or dead?
-			if (enemyHP <= 0) 
+			if (enemyHP <= 0)
 			{
 				state = ENEMYSTATE.DIE;
 			}
@@ -21,15 +20,16 @@ function HurtEnemy(_enemy, _damage, _source, _knockback)
 				if (state != ENEMYSTATE.HURT) statePrevious = state;
 				state = ENEMYSTATE.HURT;
 			}
-
+			
 			image_index = 0;
-			if (_knockback != 0)
+			if (knockback != 0)
 			{
-				var _knockDirection = point_direction(x,y,(_source).x,(_source).y);
-				xTo = x - lengthdir_x(_knockback,_knockDirection);
-				yTo = y - lengthdir_y(_knockback,_knockDirection);
+				var knockDirection = point_direction(x,y,(source).x,(source).y);
+				xTo = x - lengthdir_x(knockback, knockDirection);
+				yTo = y - lengthdir_y(knockback, knockDirection);
 			}
-
+			
 		}
 	}
+
 }
