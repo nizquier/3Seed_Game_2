@@ -6,6 +6,4 @@ function EnemyWait() {
 		stateWait = 0;
 		state = stateTarget;	
 	}
-
-
 }

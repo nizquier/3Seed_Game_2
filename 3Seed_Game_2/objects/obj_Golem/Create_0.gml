@@ -4,7 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-state = ENEMYSTATE.WANDER
+image_speed = 0;
+state = ENEMYSTATE.IDLE
 xTo = xstart;
 yTo = ystart;
 dir = 0;
@@ -38,6 +39,7 @@ enemyScript[ENEMYSTATE.IDLE] = -1;
 enemyScript[ENEMYSTATE.WANDER] = GolemWander;
 enemyScript[ENEMYSTATE.CHASE] = GolemChase;
 enemyScript[ENEMYSTATE.ATTACK] = GolemAttack;
+enemyScript[ENEMYSTATE.RANGE] = GolemRangeAttack;
 enemyScript[ENEMYSTATE.HURT] = GolemHurt;
 enemyScript[ENEMYSTATE.DIE] = GolemDie;
 enemyScript[ENEMYSTATE.WAIT] = EnemyWait;
