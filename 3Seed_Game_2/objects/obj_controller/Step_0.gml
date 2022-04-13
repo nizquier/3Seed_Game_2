@@ -6,7 +6,8 @@ if(instance_exists(obj_heroPyro)) {
 	else instance_activate_object(obj_shoreBlock)
 }
 
-if(layer_exists(layer_get_id("Permanent_BlocksINV")))
+if(layer_exists(layer_get_id("Permanent_BlocksINV")) || layer_exists(layer_get_id("CollisionTiles")))
 {
 	layer_set_visible(layer_get_id("Permanent_BlocksINV"), false)
+	layer_set_visible(layer_get_id("CollisionTiles"), false)
 }

@@ -16,6 +16,7 @@ hsp = hspeed;
 vsp = vspeed;
 aggroCheck = 0;
 aggroCheckDuration = 5;
+enemyHPMAX = enemyHP
 
 //enemy sprites
 sprIdle = -1;

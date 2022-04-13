@@ -93,7 +93,7 @@ function GolemChase()
 		xTo += lengthdir_x(8,dir);
 		yTo += lengthdir_y(8,dir);
 	}
-	else if(instance_exists(target)) && (pntDist > enemyAtkDistance) && (pntDist <= enemyRangeDistance)
+	else if(instance_exists(target)) && (pntDist > enemyRangeDistance/2) && (pntDist <= enemyRangeDistance)
 	{
 		state = ENEMYSTATE.RANGE;
 		sprite_index = sprRAttack;
