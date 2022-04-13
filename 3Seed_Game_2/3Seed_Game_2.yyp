@@ -135,6 +135,7 @@
     {"id":{"name":"spr_heroCryoGrd_right","path":"sprites/spr_heroCryoGrd_right/spr_heroCryoGrd_right.yy",},"order":2,},
     {"id":{"name":"obj_heroSpawner","path":"objects/obj_heroSpawner/obj_heroSpawner.yy",},"order":5,},
     {"id":{"name":"spr_golemRangeAtk","path":"sprites/spr_golemRangeAtk/spr_golemRangeAtk.yy",},"order":7,},
+    {"id":{"name":"obj_Guy_Controller","path":"objects/obj_Guy_Controller/obj_Guy_Controller.yy",},"order":14,},
     {"id":{"name":"spr_heroHydro_right","path":"sprites/spr_heroHydro_right/spr_heroHydro_right.yy",},"order":2,},
     {"id":{"name":"tile_mw_hillsedit","path":"tilesets/tile_mw_hillsedit/tile_mw_hillsedit.yy",},"order":4,},
     {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},"order":1,},

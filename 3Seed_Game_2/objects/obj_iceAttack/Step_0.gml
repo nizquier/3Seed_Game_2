@@ -3,16 +3,16 @@
 
 switch(image_angle) {
 	case 0:
-		y += atkSpeed
+		y += atkSpeed * obj_heroPyro.atkSpdMultiplier
 		break;
 	case 90:
-		x += atkSpeed
+		x += atkSpeed * obj_heroPyro.atkSpdMultiplier
 		break;
 	case 180:
-		y -= atkSpeed
+		y -= atkSpeed * obj_heroPyro.atkSpdMultiplier
 		break;
 	case 270:
-		x -= atkSpeed
+		x -= atkSpeed * obj_heroPyro.atkSpdMultiplier
 		break;
 }
 /*
