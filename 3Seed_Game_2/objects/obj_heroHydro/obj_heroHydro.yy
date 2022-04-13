@@ -3,7 +3,7 @@
     "name": "spr_heroHydro_right",
     "path": "sprites/spr_heroHydro_right/spr_heroHydro_right.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

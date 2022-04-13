@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_heroIcon",
-    "path": "sprites/spr_heroIcon/spr_heroIcon.yy",
+    "name": "npc01",
+    "path": "sprites/npc01/npc01.yy",
   },
   "solid": true,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Heroes",
-    "path": "folders/Objects/Heroes.yy",
+    "name": "NPC",
+    "path": "folders/Objects/NPC.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_heroSpawner",
+  "name": "obj_npc01",
   "tags": [],
   "resourceType": "GMObject",
 }
