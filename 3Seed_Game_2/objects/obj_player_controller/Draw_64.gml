@@ -4,6 +4,12 @@
 draw_set_color(c_white)
 draw_set_font(font_md)
 draw_text(10,10, "Objective : " + objective);
+if(instance_exists(obj_heroPyro)){
+	if(variable_instance_exists(obj_heroPyro, "health")){
+		draw_text(10,25, "Health : " + obj_heroPyro.health);
+	}
+	
+}
 
 
 
