@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-randomize();
-global.playerHPMax = 10;
-global.playerHP = 10;
-
+global.game_over = false;
+lives = 3
 
 enum CurrentHero {
 	Pyro,

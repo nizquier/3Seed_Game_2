@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+sprite_collision_mask(spr_skeletonIdle, true, 1, 0, 0, 0, 0, 0, 0);
+
 image_speed = 1;
 state = ENEMYSTATE.WANDER;
 
