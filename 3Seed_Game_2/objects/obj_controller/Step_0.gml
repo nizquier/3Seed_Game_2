@@ -11,3 +11,9 @@ if(layer_exists(layer_get_id("Permanent_BlocksINV")) || layer_exists(layer_get_i
 	layer_set_visible(layer_get_id("Permanent_BlocksINV"), false)
 	layer_set_visible(layer_get_id("CollisionTiles"), false)
 }
+
+//End screen
+if(!instance_exists(obj_Enemy) && room != FirstRoom)
+{
+	room_goto(EndRoom)
+}
