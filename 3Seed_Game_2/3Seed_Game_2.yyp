@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"spr_mw_walls","path":"sprites/spr_mw_walls/spr_mw_walls.yy",},"order":6,},
     {"id":{"name":"tile_mw_walls","path":"tilesets/tile_mw_walls/tile_mw_walls.yy",},"order":2,},
+    {"id":{"name":"obj_endGame","path":"objects/obj_endGame/obj_endGame.yy",},"order":1,},
     {"id":{"name":"tile_furniture","path":"tilesets/tile_furniture/tile_furniture.yy",},"order":8,},
     {"id":{"name":"spr_heroHydroAtk_left","path":"sprites/spr_heroHydroAtk_left/spr_heroHydroAtk_left.yy",},"order":1,},
     {"id":{"name":"spr_heroCryoGrd_left","path":"sprites/spr_heroCryoGrd_left/spr_heroCryoGrd_left.yy",},"order":1,},

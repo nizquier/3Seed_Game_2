@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-if instance_exists(obj_player)
+/*if instance_exists(obj_player)
 {
 	draw_healthbar(8,8,256,32,global.playerHP,c_black,c_red,c_lime,0,true,true)
 	draw_text(16,64,"Score: "+ string(points))
-}
+}*/
 
 draw_set_halign(fa_left)
 
@@ -25,17 +25,17 @@ if (global.game_over) {
 if(instance_exists(obj_player))
 	draw_sprite_stretched(spr_healthbar_mid, 0, 60, 30, (obj_player.playerHP/obj_player.playerHPMax)*162, 25)
 
-if(instance_exists(obj_player)) {
-//health meter icon and holder
-draw_sprite(spr_healthmeter_holder, 0, 30, 30)
-draw_sprite(spr_healthmeter_icon, 0, 55, 55)
+if(instance_exists(obj_player))
+{
+	//health meter icon and holder
+	draw_sprite(spr_healthmeter_holder, 0, 30, 30)
+	draw_sprite(spr_healthmeter_icon, 0, 55, 55)
 
-//health icons
-var i;
-for(i=0; i<lives; i++){
-	draw_sprite(spr_healthmeter_icon, 0, (55 + 40 * i), 105)
-}
-
+	//health icons
+	var i;
+	for(i=0; i<lives; i++){
+		draw_sprite(spr_healthmeter_icon, 0, (55 + 40 * i), 105)
+	}
 }
 
 //draw_sprite(spr_healthmeter_icon, 0, 55, 105)

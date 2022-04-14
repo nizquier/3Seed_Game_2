@@ -27,7 +27,8 @@ if enter {
 	//audio_play_sound(snd_menuSelect, 10, false)
 	switch(index){
 		case 0:
-			room_goto(MHS)
+			//room_goto(MHS)
+			room_goto(MHS_NEW)
 			audio_stop_sound(snd_mainMenu)
 		break;
 		
