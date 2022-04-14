@@ -103,6 +103,7 @@
     {"id":{"name":"npc01","path":"sprites/npc01/npc01.yy",},"order":0,},
     {"id":{"name":"obj_Golem","path":"objects/obj_Golem/obj_Golem.yy",},"order":1,},
     {"id":{"name":"spr_heroPyroAtk_up","path":"sprites/spr_heroPyroAtk_up/spr_heroPyroAtk_up.yy",},"order":0,},
+    {"id":{"name":"obj_hp_controller","path":"objects/obj_hp_controller/obj_hp_controller.yy",},"order":15,},
     {"id":{"name":"HurtEnemy","path":"scripts/HurtEnemy/HurtEnemy.yy",},"order":3,},
     {"id":{"name":"spr_mw_objects","path":"sprites/spr_mw_objects/spr_mw_objects.yy",},"order":9,},
     {"id":{"name":"spr_mw_pond","path":"sprites/spr_mw_pond/spr_mw_pond.yy",},"order":7,},
