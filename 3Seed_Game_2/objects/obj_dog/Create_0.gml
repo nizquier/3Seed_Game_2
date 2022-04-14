@@ -6,6 +6,8 @@ event_inherited();
 
 if(path_exists(pth_dog01)) path_start(pth_dog01, 1, path_action_reverse, 2);
 
+sprite_collision_mask(spr_dog, true, 1, 0, 0, 0, 0, 0, 0);
+
 image_speed = 1;
 state = ENEMYSTATE.WANDER;
 
