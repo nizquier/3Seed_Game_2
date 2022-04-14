@@ -8,3 +8,5 @@ instruct[1] = "All enemies have been defeated"
 
 //Set initial Index
 index = 0
+
+instance_deactivate_all(true)

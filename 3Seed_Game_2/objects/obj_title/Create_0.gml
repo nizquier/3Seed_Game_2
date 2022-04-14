@@ -7,13 +7,9 @@ menu[3] = "Start Game (Atlantis)";
 
 audio_play_sound(snd_mainMenu, 10, true)
 
-/*
-menu[1] = "Instructions";
-menu[2] = "Credits";
-menu[3] = "Exit Game";
-*/
-
 //Set initial index
 index = 0;
 
 global.checkpoint = false
+
+

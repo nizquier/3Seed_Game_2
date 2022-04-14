@@ -10,7 +10,7 @@ draw_set_font(TitleFont)
 draw_set_color(c_green)
 
 //Draw Title
-draw_text(room_width - room_width/1.45, room_height - room_height/1.5, "Heroe's Odyssey")
+//draw_text(room_width - room_width/1.45, room_height - room_height/1.5, "Heroe's Odyssey")
 
 //Set font for the menu items
 draw_set_font(TitleFont)
