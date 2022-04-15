@@ -164,6 +164,15 @@ function GolemHurt()
 {
 	sprite_index = sprHurt;
 	var distanceToGo = point_distance(x,y,xTo,yTo);
+	/*
+	if(image_index >= image_number - 1) 
+	{
+		target = obj_player;
+		x = xTo;
+		y = yTo;	
+		state = ENEMYSTATE.CHASE;
+	}*/
+
 	if (distanceToGo > enemySpeed)
 	{
 		image_speed = 1.0;
