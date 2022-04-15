@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if(path_exists(pth_pumkin01)) path_start(pth_pumkin01, 1, path_action_reverse, 2);
+if(layer_exists(layer_get_id("pth_pumkin01"))) path_start(pth_pumkin01, 1, path_action_reverse, 2);
 
 image_speed = 1;
 state = ENEMYSTATE.WANDER;

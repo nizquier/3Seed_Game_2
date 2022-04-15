@@ -4,6 +4,8 @@
 x = clamp(x, sprite_width/2, room_width-sprite_width/2)
 y = clamp(y, sprite_height/2, room_height-sprite_height/2)
 
+sprite_collision_mask(sprAtkDOWN, true, 1, 0, 0, 0, 0, 0, 0);
+
 key_right = keyboard_check(vk_right)
 key_left = keyboard_check(vk_left)
 key_up = keyboard_check(vk_up)

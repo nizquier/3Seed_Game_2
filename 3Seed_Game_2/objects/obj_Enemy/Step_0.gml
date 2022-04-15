@@ -6,3 +6,4 @@ if(!global.pause)
 	depth = -bbox_bottom
 }
 
+sprite_collision_mask(sprMove, true, 1, 0, 0, 0, 0, 0, 0);

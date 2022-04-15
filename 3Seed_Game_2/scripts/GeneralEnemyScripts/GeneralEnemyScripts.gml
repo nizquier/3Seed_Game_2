@@ -34,8 +34,17 @@ function GeneralEnemyAttack()
 			state = ENEMYSTATE.WAIT;
 		}
 	}
+}
 
-
+function GeneralEnemyIdle()
+{
+	target = obj_player;
+	
+	if(instance_exists(target)) && (point_distance(x,y,target.x,target.y) <= enemyChaseDistance*1.5)
+	{
+		image_speed = 1;
+		if(image_index+image_speed >= image_number) state = ENEMYSTATE.CHASE;
+	}
 }
 
 function GeneralEnemyChase() 
@@ -139,7 +148,16 @@ function GeneralEnemyHurt()
 {
 	sprite_index = sprHurt;
 	var distanceToGo = point_distance(x,y,xTo,yTo);
-	if (distanceToGo > enemySpeed)
+	
+	if(image_index >= image_number - 1) 
+	{
+		target = obj_player;
+		x = xTo;
+		y = yTo;	
+		state = ENEMYSTATE.CHASE;
+	}
+	
+	/*if (distanceToGo > enemySpeed)
 	{
 		image_speed = 1.0;
 		dir = point_direction(x,y,xTo,yTo);
@@ -160,7 +178,7 @@ function GeneralEnemyHurt()
 		y = yTo;	
 		if (statePrevious != ENEMYSTATE.ATTACK)	state = statePrevious; else state = ENEMYSTATE.CHASE;
 	
-	}
+	}*/
 }
 	
 function GeneralEnemyDie() 

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(instance_number(obj_GolemRange) > instance_number(obj_Golem) - instance_number(obj_Golem) / 2) instance_destroy();
+if(instance_number(obj_GolemRange) > instance_number(obj_Golem)) instance_destroy();
 
 draw_self();
 

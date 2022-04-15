@@ -4,10 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
-sprite_collision_mask(spr_wizardDarkldle, true, 1, 0, 0, 0, 0, 0, 0);
+//prite_collision_mask(spr_wizardDarkldle, true, 1, 0, 0, 0, 0, 0, 0);
 
 image_speed = 1;
-state = ENEMYSTATE.WANDER;
+state = ENEMYSTATE.IDLE;
 
 //enemy sprites
 sprIdle = spr_wizardDarkldle;
@@ -17,7 +17,7 @@ sprHurt = spr_wizardDarkHit;
 sprDeath = spr_wizardDarkDeath;
 
 //enemy script
-enemyScript[ENEMYSTATE.IDLE] = -1;
+enemyScript[ENEMYSTATE.IDLE] = GeneralEnemyIdle;
 enemyScript[ENEMYSTATE.WANDER] = GeneralEnemyWander;
 enemyScript[ENEMYSTATE.CHASE] = GeneralEnemyChase;
 enemyScript[ENEMYSTATE.ATTACK] = GeneralEnemyAttack;
