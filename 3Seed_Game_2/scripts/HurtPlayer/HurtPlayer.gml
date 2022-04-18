@@ -4,7 +4,9 @@ function HurtPlayer(thisDirection,thisForce,thisDamage)
 {
 	if (obj_heroPyro.invulnerable <= 0)
 	{
-		global.playerHP = max(0, global.playerHP-thisDamage);
+		
+		if(global.playerBlocking) global.playerHP = max(0, global.playerHP-(thisDamage/2));
+		else global.playerHP = max(0, global.playerHP-thisDamage);
 		
 		if (global.playerHP > 0)
 		{

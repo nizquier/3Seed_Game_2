@@ -5,6 +5,7 @@ x = clamp(x, sprite_width/2, room_width-sprite_width/2)
 y = clamp(y, sprite_height/2, room_height-sprite_height/2)
 
 sprite_collision_mask(sprAtkDOWN, true, 1, 0, 0, 0, 0, 0, 0);
+global.playerBlocking = false
 
 key_right = keyboard_check(vk_right)
 key_left = keyboard_check(vk_left)
@@ -38,9 +39,18 @@ if xspd == 0 {
 }
 if yspd > 0 && face == UP {face = DOWN};
 if yspd < 0 && face == DOWN {face = UP};
-if(key_atk) sprite_index = atkSprite[face]
-else if(key_space) sprite_index = defSprite[face]
-else sprite_index = sprite[face]
+if(key_atk) {
+	sprite_index = atkSprite[face]
+	global.playerBlocking = false
+}
+else if(key_space) {
+	sprite_index = defSprite[face]
+	global.playerBlocking = true
+}
+else {
+	sprite_index = sprite[face]
+	global.playerBlocking = false
+}
 global.playerFace = face;
 frameSPD = game_get_speed(gamespeed_fps)
 

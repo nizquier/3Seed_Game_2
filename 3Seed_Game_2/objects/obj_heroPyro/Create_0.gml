@@ -3,6 +3,7 @@ yspd = 0
 move_speed = 1
 
 global.currHero = thisHero
+global.playerBlocking = false
 
 sprite[RIGHT] = sprRIGHT
 sprite[UP] = sprUP
