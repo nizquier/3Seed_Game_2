@@ -148,6 +148,7 @@ function GeneralEnemyHurt()
 {
 	sprite_index = sprHurt;
 	var distanceToGo = point_distance(x,y,xTo,yTo);
+	
 	/*
 	if(image_index >= image_number - 1) 
 	{

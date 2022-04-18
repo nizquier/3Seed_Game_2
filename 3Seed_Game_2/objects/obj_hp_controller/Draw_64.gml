@@ -16,12 +16,12 @@ draw_sprite(spr_healthmeter_left,0,55,30)
 draw_sprite_stretched(spr_health_meter_mid, 0, 65, 30, 150, 25)
 draw_sprite(spr_healthmeter_right, 0, 215, 30)
 }
-
+/*
 if (global.game_over) {
 	draw_set_halign(fa_center)
 	draw_text(room_width / 2, room_height / 2, "Game Over! Press ALT + G to restart.")
 	//draw_text(room_width / 2, room_height / 2 + 40, "Press ALT + G for Main Menu")
-}
+}*/
 
 //acttual health meter
 if(instance_exists(obj_player))
