@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-lives -= 1
+if(global.debuggingHero) {}
+else lives -= 1;
+
 if(lives < 1)
 {
 	//game_restart()
@@ -9,5 +11,5 @@ if(lives < 1)
 }
 else
 {
-	room_restart()
+	//room_restart()
 }

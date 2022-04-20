@@ -12,6 +12,8 @@ if(layer_exists(layer_get_id("Permanent_BlocksINV")) || layer_exists(layer_get_i
 	layer_set_visible(layer_get_id("CollisionTiles"), false)
 }
 
+global.debuggingHero = false
+
 //End screen
 if(!instance_exists(obj_Enemy) && room != FirstRoom && room != Map)
 {
@@ -19,3 +21,5 @@ if(!instance_exists(obj_Enemy) && room != FirstRoom && room != Map)
 }
 
 if(lives <= 0) room_goto(EndRoom)
+
+
