@@ -5,6 +5,7 @@ menu[1] = "Start Game (MHSNEW)";
 menu[2] = "Start Game (Nick)";
 menu[3] = "Start Game (Atlantis)";
 menu[4] = "Game Map";
+menu[5] = "Start Game (Dungeon)";
 
 audio_play_sound(snd_mainMenu, 10, true)
 

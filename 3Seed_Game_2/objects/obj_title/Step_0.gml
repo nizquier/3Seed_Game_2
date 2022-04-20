@@ -48,6 +48,10 @@ if enter {
 			room_goto(Map)
 			audio_stop_sound(snd_mainMenu)
 			break;
+		case 5:
+			room_goto(MHS_NEW2)
+			audio_stop_sound(snd_mainMenu)
+			break;
 	}
 }
 /*
