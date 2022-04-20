@@ -13,7 +13,7 @@ if(layer_exists(layer_get_id("Permanent_BlocksINV")) || layer_exists(layer_get_i
 }
 
 //End screen
-if(!instance_exists(obj_Enemy) && room != FirstRoom)
+if(!instance_exists(obj_Enemy) && room != FirstRoom && room != Map)
 {
 	room_goto(EndRoom)
 }

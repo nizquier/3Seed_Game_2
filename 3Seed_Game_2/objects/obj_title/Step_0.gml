@@ -29,24 +29,25 @@ if enter {
 		case 0:
 			room_goto(MHS)
 			audio_stop_sound(snd_mainMenu)
-		break;
-		
+			break;
 		case 1:
 			room_goto(MHS_NEW)
 			audio_stop_sound(snd_mainMenu)
-		break;
-		
+			break;
 		case 2:
 			room_goto(Nick)
 			audio_stop_sound(snd_mainMenu)
 			audio_play_sound(snd_forest, 10, true)
-		break;
-		
+			break;
 		case 3:
 			room_goto(Atlantis)
 			audio_stop_sound(snd_mainMenu)
 			audio_play_sound(snd_forest, 10, true)
-		break;
+			break;
+		case 4:
+			room_goto(Map)
+			audio_stop_sound(snd_mainMenu)
+			break;
 	}
 }
 /*
