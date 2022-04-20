@@ -3,7 +3,7 @@
     "name": "spr_heroPyro_right",
     "path": "sprites/spr_heroPyro_right/spr_heroPyro_right.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

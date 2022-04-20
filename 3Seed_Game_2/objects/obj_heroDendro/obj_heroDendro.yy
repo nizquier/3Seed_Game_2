@@ -3,7 +3,7 @@
     "name": "spr_heroDendro_right",
     "path": "sprites/spr_heroDendro_right/spr_heroDendro_right.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

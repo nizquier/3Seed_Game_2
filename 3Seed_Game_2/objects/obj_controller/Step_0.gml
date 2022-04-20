@@ -17,3 +17,5 @@ if(!instance_exists(obj_Enemy) && room != FirstRoom)
 {
 	room_goto(EndRoom)
 }
+
+if(lives <= 0) room_goto(EndRoom)

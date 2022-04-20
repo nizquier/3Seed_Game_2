@@ -21,7 +21,8 @@ function HurtPlayer(thisDirection,thisForce,thisDamage)
 		}
 		else
 		{
-			room_restart()
+			global.playerHP = global.playerHPMax
+			lives -= 1
 		}
 	}
 }
