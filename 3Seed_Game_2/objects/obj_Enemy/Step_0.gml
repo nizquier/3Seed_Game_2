@@ -16,10 +16,15 @@ if(weaknessAtk != -1 && weaknessAtkBonusDmg != -1)
 	}
 }
 
+/*
 if(weakAtk != -1)
 {
 	if(place_meeting(x, y, weakAtk))
 	{
-		enemyHP += weakAtk.atkDamage;
+		enemyHP += weakAtk.atkDamage * 2;
+		with(weakAtk)
+		{
+			atkDamage = atkDamage - atkDamage
+		}
 	}
-}
+}*/

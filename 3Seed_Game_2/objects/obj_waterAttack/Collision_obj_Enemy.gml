@@ -10,6 +10,10 @@ if(other == obj_fireEnemy)
 	
 } else */
 
-HurtEnemy(other,atkDamage,id,2)
+if(other.weakAtk == obj_waterAttack)
+{
+	HurtEnemy(other,atkDamage/2,id,2)
+	
+} else HurtEnemy(other,atkDamage,id,2)
 
 instance_destroy();
