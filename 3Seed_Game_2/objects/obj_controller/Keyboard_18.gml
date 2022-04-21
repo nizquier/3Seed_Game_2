@@ -4,6 +4,7 @@ if(keyboard_check_pressed(ord("R"))) room_restart();
 if(keyboard_check_pressed(ord("G"))) game_restart();
 if(keyboard_check_pressed(ord("N"))) room_goto_next();
 if(keyboard_check_pressed(ord("D"))) instance_destroy(obj_Enemy);
+if(keyboard_check_pressed(ord("F"))) lives = 0;
 if(keyboard_check_pressed(ord("H"))){
 	global.debuggingHero = true
 	switch(global.currHero) {

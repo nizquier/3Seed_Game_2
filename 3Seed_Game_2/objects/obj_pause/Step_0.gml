@@ -123,7 +123,11 @@ if ( global.pause ){
 				room_goto(FirstRoom)
 				global.pause = false;
 			break;
-			case 3: // Exit
+			case 3: //Show Map
+				room_goto(Map)
+				screen_alpha_set = 0;
+			break;
+			case 4: // Exit
 				game_end();
 			break;
 		}

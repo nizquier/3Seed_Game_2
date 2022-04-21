@@ -17,9 +17,9 @@ global.debuggingHero = false
 //End screen
 if(!instance_exists(obj_Enemy) && room != FirstRoom && room != Map)
 {
-	room_goto(EndRoom)
+	room_goto(MissionSuccessRoom)
 }
 
-if(lives <= 0) room_goto(EndRoom)
+if(lives <= 0) room_goto(GameOverRoom)
 
 

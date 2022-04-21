@@ -38,6 +38,7 @@ var	n = 0;
 bstring[ n ]	= " RESUME "; n++;
 bstring[ n ]	= " RESTART "; n++;
 bstring[ n ]	= " MAINMENU "; n++;
+bstring[ n ]	= " MAP "; n++;
 bstring[ n ]	= " EXIT "; n++;
 bc		= n; //total button count;
 
