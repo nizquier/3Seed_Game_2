@@ -24,6 +24,9 @@ heroDes[1] = "Cryo E attack unleashes a ice spike in the direction the hero is f
 heroDes[2] = "Dendro/Wind E attack throws his trusty boomerang in the direction the hero is facing, and controls it with WASD!"
 heroDes[3] = "Hydro E attack unleashes deadly bubbles in every direction."
 
+//Extra
+shieldDes = "All heroes have a shield that is activated with SPACE-BAR, it halves all damage taken when it is held."
+
 //Set initial Index
 index = 0
 

@@ -34,7 +34,7 @@ for (var i = 0; i < array_length_1d(heroDes); i++){
 	draw_set_color(#241610)
 	draw_text_ext(850, 213 + spc*i, heroDes[i], 15, 310)
 }
-draw_text_ext(775, 560, "All heroes have a shield that is activated with SPACE-BAR, it halves all damage taken when it is held.", 15, 350)
+draw_text_ext(775, 560, shieldDes, 15, 350)
 
 //Draw instructions for returning to main screen
 draw_set_font(fnt_monogram)
