@@ -1,4 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-HurtEnemy(other.id,15,id,4)
+if(other.weakAtk == obj_fireAttack)
+{
+	HurtEnemy(other,atkDamage/2,id,4)
+	
+} else HurtEnemy(other,atkDamage,id,4)
+
+instance_destroy();
