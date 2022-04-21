@@ -23,6 +23,7 @@ function HurtPlayer(thisDirection,thisForce,thisDamage)
 		{
 			global.playerHP = global.playerHPMax
 			lives -= 1
+			audio_play_sound(snd_lifeLost, 10, false)
 		}
 	}
 }

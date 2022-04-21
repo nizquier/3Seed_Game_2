@@ -14,8 +14,8 @@
   "soundFile": "snd_forest.mp3",
   "duration": 113.9461,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Background Music",
+    "path": "folders/Sounds/Background Music.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_forest",

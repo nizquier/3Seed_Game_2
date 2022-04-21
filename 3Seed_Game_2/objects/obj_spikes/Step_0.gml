@@ -3,7 +3,9 @@
 
 if(distance_to_object(obj_player) <= 20)
 {
-	image_speed = 1;/*
+	image_speed = 1;	
+	if(!audio_is_playing(snd_spikes)) audio_play_sound(snd_spikes, 11, false)
+	/*
 	if(image_index > 0)
 	{
 		instance_place(x, y, obj_player)

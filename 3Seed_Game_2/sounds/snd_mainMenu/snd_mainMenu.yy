@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
   "soundFile": "snd_mainMenu.mp3",
   "duration": 76.43427,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Background Music",
+    "path": "folders/Sounds/Background Music.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_mainMenu",

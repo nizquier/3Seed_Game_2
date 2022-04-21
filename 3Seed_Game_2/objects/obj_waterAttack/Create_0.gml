@@ -24,3 +24,5 @@ if(CurrentHero.Hydro == global.currHero) {
 
 frameSPD = game_get_speed(gamespeed_fps)
 alarm[0] = frameSPD * atkDistanceTime;
+
+audio_play_sound(snd_bubble, 9, false)

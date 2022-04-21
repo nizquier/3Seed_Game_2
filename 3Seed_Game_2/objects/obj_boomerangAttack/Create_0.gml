@@ -27,3 +27,5 @@ if(CurrentHero.Dendro == global.currHero) {
 
 frameSPD = game_get_speed(gamespeed_fps)
 alarm[0] = frameSPD * atkDistanceTime;
+
+audio_play_sound(snd_boomerang, 11, false)

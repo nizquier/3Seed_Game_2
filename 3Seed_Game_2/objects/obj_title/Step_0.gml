@@ -42,7 +42,7 @@ if enter {
 		case 3:
 			room_goto(Atlantis)
 			audio_stop_sound(snd_mainMenu)
-			audio_play_sound(snd_forest, 10, true)
+			audio_play_sound(snd_Atlantis2, 10, true)
 			break;
 		case 4:
 			room_goto(Map)
@@ -51,6 +51,7 @@ if enter {
 		case 5:
 			room_goto(MHS_NEW2)
 			audio_stop_sound(snd_mainMenu)
+			audio_play_sound(snd_redCarpet, 10, true)
 			break;
 	}
 }

@@ -1,8 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(global.debuggingHero) {}
-else lives -= 1;
+if(!global.debuggingHero)
+{
+	lives -= 1;
+	audio_play_sound(snd_lifeLost, 10, false)
+}
 
 if(lives < 1)
 {

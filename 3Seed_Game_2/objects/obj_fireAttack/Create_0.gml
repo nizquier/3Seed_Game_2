@@ -25,3 +25,5 @@ frameSPD = game_get_speed(gamespeed_fps)
 alarm[0] = frameSPD * atkDistanceTime;
 
 atkSpeed *= obj_heroPyro.atkSpdMultiplier
+
+audio_play_sound(and_fireAttack, 11, false)

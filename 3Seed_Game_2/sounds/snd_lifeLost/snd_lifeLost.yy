@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.7,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_menu",
-  "duration": 0.0,
+  "soundFile": "snd_lifeLost.wav",
+  "duration": 0.504331,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Events",
+    "path": "folders/Sounds/Events.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_menu",
+  "name": "snd_lifeLost",
   "tags": [],
   "resourceType": "GMSound",
 }

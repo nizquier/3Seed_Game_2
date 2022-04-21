@@ -47,7 +47,7 @@ draw_set_font(font_small)
 
 if(instance_exists(obj_player)){
 //score and room restart
-draw_text(30, 180, "Score: " + string(score))
-draw_text(30, 140, "Press ALT-R to restart the Game.")
+draw_text(30, 120, "Score: " + string(score))
+draw_text(30, 180, "Press ALT-R to restart the Game.")
 //draw_text(30, 200, "lives: " + string(lives))
 }
