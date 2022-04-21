@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "spr_heroIcon",
-    "path": "sprites/spr_heroIcon/spr_heroIcon.yy",
-  },
-  "solid": true,
-  "visible": false,
+  "spriteId": null,
+  "solid": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -22,15 +19,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Heroes",
-    "path": "folders/Objects/Heroes.yy",
+    "name": "Title",
+    "path": "folders/Objects/Title.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_heroSpawner",
+  "name": "obj_instScreen",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -53,6 +53,9 @@ if enter {
 			audio_stop_sound(snd_mainMenu)
 			audio_play_sound(snd_redCarpet, 10, true)
 			break;
+		case 6:
+			room_goto(rm_instructions)
+			break;
 	}
 }
 /*

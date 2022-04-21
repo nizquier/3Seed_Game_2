@@ -4,3 +4,7 @@ Pyro: Launches a fireball attack
 Cryo: Launches an Ice attack
 Hydro: Launches a bubble attack to all directions(up,down,left,right)
 Dendro: Throws a boomerang that can be controlled with WASD
+
+Block with the space bar (halves the damage taken).
+
+Powerups:

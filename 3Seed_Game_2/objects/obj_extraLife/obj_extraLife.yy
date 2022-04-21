@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_heroIcon",
-    "path": "sprites/spr_heroIcon/spr_heroIcon.yy",
+    "name": "spr_extraHeart",
+    "path": "sprites/spr_extraHeart/spr_extraHeart.yy",
   },
-  "solid": true,
-  "visible": false,
+  "solid": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Heroes",
-    "path": "folders/Objects/Heroes.yy",
+    "name": "PowerUps",
+    "path": "folders/Objects/PowerUps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_heroSpawner",
+  "name": "obj_extraLife",
   "tags": [],
   "resourceType": "GMObject",
 }
