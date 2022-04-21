@@ -191,6 +191,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_atkPower","path":"objects/obj_atkPower/obj_atkPower.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1200.0,"y":32.0,"resourceVersion":"1.0","name":"inst_3D9B9855","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_atkPower","path":"objects/obj_atkPower/obj_atkPower.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":32.0,"resourceVersion":"1.0","name":"inst_2579B8B3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_extraLife","path":"objects/obj_extraLife/obj_extraLife.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":656.0,"resourceVersion":"1.0","name":"inst_5104A1D8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_extraLife","path":"objects/obj_extraLife/obj_extraLife.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1728.0,"y":240.0,"resourceVersion":"1.0","name":"inst_27DC10A0","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_extraLife","path":"objects/obj_extraLife/obj_extraLife.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1136.0,"y":288.0,"resourceVersion":"1.0","name":"inst_38CAAF14","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_coldWaterBlock","path":"objects/obj_coldWaterBlock/obj_coldWaterBlock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1584.0,"y":400.0,"resourceVersion":"1.0","name":"inst_5792B1CA","tags":[],"resourceType":"GMRInstance",},
@@ -925,6 +927,8 @@
     {"name":"inst_3D9B9855","path":"rooms/Atlantis/Atlantis.yy",},
     {"name":"inst_2579B8B3","path":"rooms/Atlantis/Atlantis.yy",},
     {"name":"inst_5104A1D8","path":"rooms/Atlantis/Atlantis.yy",},
+    {"name":"inst_27DC10A0","path":"rooms/Atlantis/Atlantis.yy",},
+    {"name":"inst_38CAAF14","path":"rooms/Atlantis/Atlantis.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
