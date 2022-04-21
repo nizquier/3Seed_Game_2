@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//PowerUp Icons
+powerUpIcon[0] = spr_speedIcon
+powerUpIcon[1] = spr_atkPowerIcon
+powerUpIcon[2] = spr_heartIcon
 
 //PowerUps Menu
 powerUps[0] = "Attack Speed"
@@ -11,6 +15,12 @@ powerUps[2] = "Extra Heart"
 puInstructions[0] = "Increases your attack speed"
 puInstructions[1] = "Increases your attack power"
 puInstructions[2] = "Increases your lives by one"
+
+//Heroes Icons
+heroIcon[0] = spr_pyroIcon
+heroIcon[1] = spr_cryoIcon
+heroIcon[2] = spr_dendroIcon
+heroIcon[3] = spr_hydroIcon
 
 //Heroes titles
 heroes[0] = "Pyro Hero"
