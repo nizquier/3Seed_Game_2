@@ -3,6 +3,7 @@
 
 if(other.weakAtk == obj_boomerangAttack)
 {
+	atkDamage *= obj_heroDendro.atkMult
 	HurtEnemy(other,atkDamage/2,id,5)
 	
 } else HurtEnemy(other,atkDamage,id,5)

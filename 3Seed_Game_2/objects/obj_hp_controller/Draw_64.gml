@@ -53,3 +53,8 @@ draw_text(30, 180, "Score: " + string(score))
 draw_text(30, 140, "Press ALT-R to restart the Game.")
 //draw_text(30, 200, "lives: " + string(lives))
 }
+
+draw_text(30,200,"Attack Speed Buff " + string(string(ceil(obj_heroPyro.alarm[1]/room_speed))))
+draw_text(30,220,"Attack Multipler " +string(string(ceil(obj_heroPyro.alarm[2]/room_speed))
+))
+

@@ -12,6 +12,7 @@ if(other == obj_fireEnemy)
 
 if(other.weakAtk == obj_waterAttack)
 {
+	atkDamage *= obj_heroHydro.atkMult
 	HurtEnemy(other,atkDamage/2,id,2)
 	
 } else HurtEnemy(other,atkDamage,id,2)

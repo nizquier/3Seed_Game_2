@@ -3,6 +3,7 @@
 
 if(other.weakAtk == obj_fireAttack)
 {
+	atkDamage *= obj_heroPyro.atkMult
 	HurtEnemy(other,atkDamage/2,id,4)
 	
 } else HurtEnemy(other,atkDamage,id,4)
