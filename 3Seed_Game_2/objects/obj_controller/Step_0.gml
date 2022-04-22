@@ -20,6 +20,10 @@ if(!instance_exists(obj_Enemy) && room != FirstRoom && room != Map)
 	room_goto(MissionSuccessRoom)
 }
 
-if(lives <= 0) room_goto(GameOverRoom)
+if(lives <= 0) 
+{
+	room_goto(GameOverRoom)
+	audio_play_sound(gameOver, 10, false)
+}
 
 
