@@ -127,6 +127,7 @@
     {"id":{"name":"obj_coins","path":"objects/obj_coins/obj_coins.yy",},"order":1,},
     {"id":{"name":"tile_mw_items","path":"tilesets/tile_mw_items/tile_mw_items.yy",},"order":8,},
     {"id":{"name":"spr_heroCryoGrd_up","path":"sprites/spr_heroCryoGrd_up/spr_heroCryoGrd_up.yy",},"order":3,},
+    {"id":{"name":"obj_teleport","path":"objects/obj_teleport/obj_teleport.yy",},"order":19,},
     {"id":{"name":"spr_bubbles","path":"sprites/spr_bubbles/spr_bubbles.yy",},"order":2,},
     {"id":{"name":"spr_hydroBossChase","path":"sprites/spr_hydroBossChase/spr_hydroBossChase.yy",},"order":3,},
     {"id":{"name":"tl_colBlocks2","path":"tilesets/tl_colBlocks2/tl_colBlocks2.yy",},"order":10,},
