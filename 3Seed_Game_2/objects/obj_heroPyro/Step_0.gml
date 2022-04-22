@@ -14,8 +14,8 @@ key_down = keyboard_check(vk_down)
 key_space = keyboard_check(vk_space)
 key_atk = keyboard_check(ord("E"))
 
-xspd = (key_right - key_left) * move_speed;
-yspd = (key_down - key_up) * move_speed;
+xspd = (key_right - key_left) * move_speed * spdPMult;
+yspd = (key_down - key_up) * move_speed * spdPMult;
 
 //animate player
 if(xspd == 0 and yspd == 0) {

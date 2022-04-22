@@ -3,7 +3,7 @@
 
 function HurtEnemy(enemy, damage, source, knockback)
 {
-	var thisDamage = damage
+	var thisDamage = damage * obj_heroPyro.atkMult
 	
 	/*
 	var curObj = object_index
