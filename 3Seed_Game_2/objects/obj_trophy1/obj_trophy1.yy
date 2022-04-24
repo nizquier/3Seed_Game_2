@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_trophy1",
-    "path": "sprites/spr_trophy1/spr_trophy1.yy",
+    "name": "spr_trophyAtlantis",
+    "path": "sprites/spr_trophyAtlantis/spr_trophyAtlantis.yy",
   },
   "solid": false,
   "visible": true,

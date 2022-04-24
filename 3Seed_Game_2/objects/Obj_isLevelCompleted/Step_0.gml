@@ -11,8 +11,14 @@ if(Level_Number != 0) {
 			}
 			break;
 		case 2:
+			if(global.trophy2) {
+				sprite_index = spr_Map_green;
+			}
 			break;
 		case 3:
+			if(global.trophy3) {
+				sprite_index = spr_Map_green;
+			}
 			break;
 	
 	}

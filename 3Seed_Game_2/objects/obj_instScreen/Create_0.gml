@@ -5,16 +5,19 @@
 powerUpIcon[0] = spr_speedIcon
 powerUpIcon[1] = spr_atkPowerIcon
 powerUpIcon[2] = spr_heartIcon
+powerUpIcon[3] = spr_plSpeedIcon
 
 //PowerUps Menu
 powerUps[0] = "Attack Speed"
 powerUps[1] = "Attack Power"
 powerUps[2] = "Extra Heart"
+powerUps[3] = "Player Speed"
 
 //Descriptions of Powerups Menu
 puInstructions[0] = "Increases your attack speed"
 puInstructions[1] = "Increases your attack power"
 puInstructions[2] = "Increases your lives by one"
+puInstructions[3] = "Increases the hero's walking speed"
 
 //Heroes Icons
 heroIcon[0] = spr_pyroIcon

@@ -5,6 +5,8 @@ global.game_over = false;
 lives = 3
 global.debuggingHero = false
 global.trophy1 = false
+global.trophy2 = false
+global.trophy3 = false
 
 enum CurrentHero {
 	Pyro,
