@@ -5,6 +5,9 @@ if(keyboard_check_pressed(ord("G"))) game_restart();
 if(keyboard_check_pressed(ord("N"))) room_goto_next();
 if(keyboard_check_pressed(ord("D"))) instance_destroy(obj_Enemy);
 if(keyboard_check_pressed(ord("F"))) lives = 0;
+if(keyboard_check_pressed(ord("Y"))) room_goto(Atlantis)
+if(keyboard_check_pressed(ord("U"))) room_goto(MHS_NEW)
+if(keyboard_check_pressed(ord("I"))) room_goto(MHS_NEW2)
 if(keyboard_check_pressed(ord("E"))){
 	room_goto(Map);
 	global.trophy1 = true;

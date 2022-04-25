@@ -8,7 +8,3 @@ if(!audio_is_playing(snd_mainMenu)) audio_play_sound(snd_mainMenu, 10, true)
 
 //Set initial index
 index = 0;
-
-global.checkpoint = false
-
-
