@@ -28,7 +28,7 @@ if enter {
 	switch(index){
 		case 0:
 			room_goto(Map)
-			audio_stop_sound(snd_mainMenu)
+			//audio_stop_sound(snd_mainMenu)
 			break;
 		case 1:
 			room_goto(rm_instructions)
