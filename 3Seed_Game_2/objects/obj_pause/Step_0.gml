@@ -34,8 +34,7 @@ if ( window != windowPrev ){
 }
 */
 
-if(room = FirstRoom){}
-else{
+if(room != FirstRoom){
 ///		Trigger PauseMenu	///
 if ( kPause ){
 	if ( global.pause ){
@@ -112,10 +111,14 @@ if ( global.pause ){
 			case 0: // Resume
 				alarm[0]	= room_speed * 0.1; //resume timer 
 				screen_alpha_set	= 0; 
+				
+				instance_activate_all()
 			break;
 			case 1: // Restart
 				room_restart();
 				alarm[0]	= room_speed * 0.1;
+				
+				instance_activate_all()
 			break;
 			case 2: // MainMenus
 				instance_activate_all();
@@ -126,6 +129,8 @@ if ( global.pause ){
 			case 3: //Show Map
 				room_goto(Map)
 				screen_alpha_set = 0;
+				
+				instance_activate_all()
 			break;
 			case 4: // Exit
 				game_end();
