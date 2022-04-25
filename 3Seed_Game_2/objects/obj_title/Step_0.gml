@@ -27,7 +27,7 @@ if enter {
 	//audio_play_sound(snd_menuSelect, 10, false)
 	switch(index){
 		case 0:
-			room_goto(MHS)
+			room_goto(Map)
 			audio_stop_sound(snd_mainMenu)
 			break;
 		case 1:
@@ -35,9 +35,9 @@ if enter {
 			audio_stop_sound(snd_mainMenu)
 			break;
 		case 2:
-			room_goto(Nick)
+			room_goto(MHS_NEW2)
 			audio_stop_sound(snd_mainMenu)
-			audio_play_sound(snd_forest, 10, true)
+			audio_play_sound(snd_redCarpet, 10, true)
 			break;
 		case 3:
 			room_goto(Atlantis)
@@ -45,17 +45,8 @@ if enter {
 			audio_play_sound(snd_Atlantis2, 10, true)
 			break;
 		case 4:
-			room_goto(Map)
-			audio_stop_sound(snd_mainMenu)
-			break;
-		case 5:
-			room_goto(MHS_NEW2)
-			audio_stop_sound(snd_mainMenu)
-			audio_play_sound(snd_redCarpet, 10, true)
-			break;
-		case 6:
 			room_goto(rm_instructions)
-			break;
+			break;	
 	}
 }
 /*
