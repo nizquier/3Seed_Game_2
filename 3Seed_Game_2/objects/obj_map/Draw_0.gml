@@ -3,9 +3,9 @@
 draw_set_halign(fa_left)
 draw_set_font(TitleFont)
 draw_set_color(#2881CC)
-//draw_text_transformed(650, 32, "Trophies Collected", 0.5, 0.5, image_angle);
-draw_text_transformed(room_width/2 - 100, 40, "Trophies Collected", 0.5, 0.5, image_angle);
-draw_sprite(spr_trophyCase, 1, room_width/2 - 50, 80)
+draw_text_transformed(650, 32, "Trophies Collected", 0.5, 0.5, image_angle);
+//draw_text_transformed(room_width/2 - 100, 40, "Trophies Collected", 0.5, 0.5, image_angle);
+draw_sprite(spr_trophyCase, 1, 704, 64)
 
 //menu navigation details
 draw_set_font(font_sm)

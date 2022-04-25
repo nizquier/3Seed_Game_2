@@ -15,4 +15,4 @@ enum CurrentHero {
 	Dendro
 }
 
-audio_play_sound(snd_mainMenu, 10, true)
+if(!audio_is_playing(snd_mainMenu)) audio_play_sound(snd_mainMenu, 10, true)
