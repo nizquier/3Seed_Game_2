@@ -48,6 +48,7 @@
     {"id":{"name":"obj_Enemy","path":"objects/obj_Enemy/obj_Enemy.yy",},"order":3,},
     {"id":{"name":"spr_IceEnemyWalk","path":"sprites/spr_IceEnemyWalk/spr_IceEnemyWalk.yy",},"order":2,},
     {"id":{"name":"spr_dendroIcon","path":"sprites/spr_dendroIcon/spr_dendroIcon.yy",},"order":2,},
+    {"id":{"name":"font_sm","path":"fonts/font_sm/font_sm.yy",},"order":6,},
     {"id":{"name":"spr_heroHydro_down","path":"sprites/spr_heroHydro_down/spr_heroHydro_down.yy",},"order":0,},
     {"id":{"name":"EnemyTileCollision","path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},"order":0,},
     {"id":{"name":"spr_shoreBlock","path":"sprites/spr_shoreBlock/spr_shoreBlock.yy",},"order":5,},
