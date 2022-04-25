@@ -6,7 +6,7 @@ if instance_exists(obj_player)
 {
 //	draw_healthbar(8,8,256,32,global.playerHP,c_black,c_red,c_lime,0,true,true)
 	//draw_text(16,64,"Score: "+ string(points))
-}
+
 
 draw_set_halign(fa_left)
 
@@ -58,4 +58,6 @@ draw_text(30,200,"Attack Speed Buff " + string(string(ceil(obj_heroPyro.alarm[1]
 draw_text(30,220,"Attack Multipler " +string(string(ceil(obj_heroPyro.alarm[2]/room_speed))))
 draw_text(30,240,"Player Speed buff " + string(string(ceil(obj_heroPyro.alarm[3]/room_speed))
 ))
+
+}
 

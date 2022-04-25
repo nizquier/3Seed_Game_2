@@ -1,0 +1,21 @@
+/// @description Insert description here
+
+draw_set_halign(fa_left)
+draw_set_font(TitleFont)
+draw_set_color(#2881CC)
+draw_text_transformed(650, 32, "Trophies Collected", 0.5, 0.5, image_angle);
+draw_sprite(spr_trophyCase, 1, 704, 64)
+
+
+if(global.trophy1 == true)
+{
+	draw_sprite(spr_trophyAtlantisCASE, 3, 768, 96)
+}
+if(global.trophy2 == true)
+{
+	draw_sprite(spr_trophyFireCASE, 2, 832, 96)
+}
+if(global.trophy3 == true)
+{
+	draw_sprite(spr_trophyWizardCASE, 2, 896, 96)
+}

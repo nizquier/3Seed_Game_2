@@ -15,7 +15,7 @@ if(layer_exists(layer_get_id("Permanent_BlocksINV")) || layer_exists(layer_get_i
 global.debuggingHero = false
 
 //End screen
-if(!instance_exists(obj_Enemy) && room != FirstRoom && room != Map)
+if(room == Map && global.trophy1 == true && global.trophy3 == true && global.trophy3 == true)
 {
 	room_goto(MissionSuccessRoom)
 }
