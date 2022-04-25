@@ -31,25 +31,11 @@ if enter {
 			audio_stop_sound(snd_mainMenu)
 			break;
 		case 1:
-			room_goto(MHS_NEW)
-			audio_stop_sound(snd_mainMenu)
-			break;
-		case 2:
-			room_goto(MHS_NEW2)
-			audio_stop_sound(snd_mainMenu)
-			audio_play_sound(snd_redCarpet, 10, true)
-			break;
-		case 3:
-			room_goto(Atlantis)
-			audio_stop_sound(snd_mainMenu)
-			audio_play_sound(snd_Atlantis2, 10, true)
-			break;
-		case 4:
 			room_goto(rm_instructions)
 			break;
-		case 5:
+		case 2:
 			room_goto(CreditsRoom)
-			break;
+			break;	
 	}
 }
 /*
