@@ -5,13 +5,13 @@ draw_set_halign(fa_center)
 //Spacing
 var spc = 50
 
-//Set font for the menu items
+//Set font for the text items
 draw_set_font(TitleFont)
 
 //Set custom color
 col = make_color_rgb(255, 45, 45)
 
-//Draw Menu Items
+//Draw Text Items
 for (var i = 0; i < array_length_1d(instruct); i++){
 	draw_set_color(col)
 	draw_text(room_width/2, room_height*.35 + spc*i, instruct[i])

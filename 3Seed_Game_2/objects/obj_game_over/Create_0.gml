@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-//Instructions Menu
+//Game Over Text
 instruct[0] = "Game Over!"
 
 //Set initial Index

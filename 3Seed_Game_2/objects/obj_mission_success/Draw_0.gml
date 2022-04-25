@@ -5,7 +5,7 @@ draw_set_halign(fa_center)
 //Spacing
 var spc = 50
 
-//Set font for the menu items
+//Set font for the text items
 draw_set_font(TitleFont)
 
 //Set custom color

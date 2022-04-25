@@ -46,7 +46,10 @@ if enter {
 			break;
 		case 4:
 			room_goto(rm_instructions)
-			break;	
+			break;
+		case 5:
+			room_goto(CreditsRoom)
+			break;
 	}
 }
 /*

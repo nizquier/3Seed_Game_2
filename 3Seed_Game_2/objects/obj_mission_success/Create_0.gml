@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-//Instructions Menu
+//Text for Mission Completetion
 instruct[0] = "Mission Success!"
 
 //Set initial Index

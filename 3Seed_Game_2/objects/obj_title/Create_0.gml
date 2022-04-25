@@ -5,6 +5,7 @@ menu[1] = "Start Game (MHSNEW)";
 menu[2] = "Start Game (Dungeon)";
 menu[3] = "Start Game (Atlantis)";
 menu[4] = "Instructions";
+menu[5] = "Credits";
 
 if(!audio_is_playing(snd_mainMenu)) audio_play_sound(snd_mainMenu, 10, true)
 
