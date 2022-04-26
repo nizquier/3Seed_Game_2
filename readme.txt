@@ -1,3 +1,8 @@
+Designer   :   Nicolas Izquierdo
+Programmer :   Mohammad Husein
+Artist     :   Addison Causey
+Producer   :   Mahesha Hesaragatta Siddappa
+
 Each time the game starts, the player is a different hero with a different ability (activated by 'E').
 
 Pyro: Launches a fireball attack
