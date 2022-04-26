@@ -3,7 +3,6 @@
 
 global.playerHPMax = 10;
 global.playerHP = 10;
-global.game_over = false
 
 global.game_over = false;
 lives = 3
@@ -20,5 +19,3 @@ enum CurrentHero {
 }
 
 if(!audio_is_playing(snd_mainMenu)) audio_play_sound(snd_mainMenu, 10, true)
-
-if(instance_exists(obj_controller)) instance_destroy();
