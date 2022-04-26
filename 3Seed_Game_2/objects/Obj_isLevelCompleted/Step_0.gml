@@ -6,7 +6,7 @@ if(Level_Number != 0 and instance_exists(Obj_cursor)) {
 	switch Level_Number {
 	
 		case 1:
-			if(global.trophy1) {
+			if(global.trophy3) {
 				with(Levels[0]){
 					sprite_index = spr_Map_green;
 				}
@@ -20,7 +20,7 @@ if(Level_Number != 0 and instance_exists(Obj_cursor)) {
 			}
 			break;
 		case 3:
-			if(global.trophy3) {
+			if(global.trophy1) {
 				with(Levels[2]){
 					sprite_index = spr_Map_green;
 				}
